@@ -2,8 +2,6 @@
 
 ### Byron Dowling
 #### Email: bdowlin2@nd.edu
-#### URL: https://github.com/Byron-Dowling/Computer-Vision-Dowling
-
 
 ## Projects
 
