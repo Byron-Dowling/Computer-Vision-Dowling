@@ -7,6 +7,6 @@
 
 ## Projects
 
-|       #        | Description                | Progress    |
-| :------------: | --------------------------| ----------- |
-| Part 1 | [Simple Overview of the Semester Project: Predicting Dangerous Driving Behavior](https://github.com/Byron-Dowling/Computer-Vision-Dowling/tree/main/Part%201) |  Complete   |
+|       #        | Description    | Progress    |
+| :------------: | ---------------| ----------- |
+| Part 1 | [Overview of Semester Project: Predicting Dangerous Driving Behavior](https://github.com/Byron-Dowling/Computer-Vision-Dowling/tree/main/Part%201) |  Complete   |
