@@ -78,16 +78,27 @@ while(cap.isOpened()):
             - Hue: 102-110
             - Saturation: 106-150
             - Value: 180-240
+
+        Black Jacket Test
+            - Hue: 0-170
+            - Saturation: 0-50
+            - Value: 5-50
+
     """
-    lower_hsv = np.array([102,62,160])
-    upper_hsv = np.array([110,122,235])
+    ## Black Jacket details
+    lower_hsv = np.array([0,0,5])
+    upper_hsv = np.array([170,50,50])
     mask = cv2.inRange(hsv,lower_hsv,upper_hsv)
 
-    # If you see more than one peak in either of the histograms, you can keep adding separate masks for all such peaks:
-    lower_hsv = np.array([102,106,180])
-    upper_hsv = np.array([110,150,240])
-    mask2 = cv2.inRange(hsv,lower_hsv,upper_hsv)
-    mask = mask + mask2
+    # lower_hsv = np.array([102,62,160])
+    # upper_hsv = np.array([110,122,235])
+    # mask = cv2.inRange(hsv,lower_hsv,upper_hsv)
+
+    # # If you see more than one peak in either of the histograms, you can keep adding separate masks for all such peaks:
+    # lower_hsv = np.array([102,106,180])
+    # upper_hsv = np.array([110,150,240])
+    # mask2 = cv2.inRange(hsv,lower_hsv,upper_hsv)
+    # mask = mask + mask2
     #######################################################
 
 	# Refining the mask corresponding to the detected red color
@@ -123,7 +134,6 @@ while(cap.isOpened()):
     cv2.imshow("res2", res2)
     #######################################################
 
-
     #######################################################
     """
         ***TASK FOR YOU: 
@@ -131,7 +141,6 @@ while(cap.isOpened()):
     """
     final_output = cv2.addWeighted(res1,1,res2,1,0)
     #######################################################
-
 
     cv2.imshow('Here the magic happens !!!',final_output)
     k = cv2.waitKey(10)
@@ -146,6 +155,9 @@ while(cap.isOpened()):
 
         It seems like every cloak-like item I have either has elaborate patterns or is plain
         black so I didn't have a lot of great options to pick from.
+
+        UPDATE:
+            - My black jacket was a much better test than my light green one
     """
 
     
