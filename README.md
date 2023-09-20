@@ -2,6 +2,9 @@
 
 ### Byron Dowling
 #### Email: bdowlin2@nd.edu
+#### Semester: Fall 2023
+
+<br />
 
 ## Semester Project
 
