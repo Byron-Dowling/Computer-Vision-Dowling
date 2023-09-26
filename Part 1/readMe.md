@@ -6,7 +6,7 @@ The goal of this project is to detect a dangerous driving situation that could p
   - cars sticking out in the roadway
   - emergency vehicles
   - vehicles stopped on the shoulder
-  - people approaching a cross walk
+  - people approaching a cross walk\
 These are situations that us human drivers are familiar with, and when we see these events unfolding in real-time, we anticipate the potential of these events occuring and adjust our driving behavior accordingly. However, many autonomous vehicle prototypes still have trouble predicting the unfolding of these situations and instead are very reactionary in their processing of information. The goal of this project is to not only work on a solution to this problem, but provide an explainable component to the process by utilizing human annotations in the learning process.
 
 ### Technical Details
