@@ -13,13 +13,5 @@ These are situations that us human drivers are familiar with, and when we see th
 ### Technical Details
 
 #### Datasets
-To start, we will need some type of drive data dataset with your typical mundane urban driving. Some potential candidates include:
-  - Waymo Perception Dataset: https://waymo.com/open/download/
-      - Current issue with this is that it already has bounding box labels
-      - Trying to see if there is a set here without this information
-  - nuScenes: https://www.nuscenes.org/
-      - Unable to get an extracted copy of the dataset
-  - KITTI-360: https://www.cvlibs.net/datasets/kitti-360/
-      - Doesn't seem like the type of data we'll need
-  - Audi Autonomous Driving Dataset: https://www.a2d2.audi/a2d2/en/dataset.html
-      - Seems promising except that it's German-based roads and there could be an issue as to whether this translates well to US roads where we would test
+After running into trouble with the previous mentioned datasets, we're going to use the Google Streetview car dataset that is available at the link below. We are going to focus only on the images that are the foward facing view of the vehicle and the street view nature especially as this data set is from Pittsburgh, Orlando, and Manhatten, it should contain plenty of urban driving scenarios for our annotation collection. 
+  - https://www.crcv.ucf.edu/data/GMCP_Geolocalization/
