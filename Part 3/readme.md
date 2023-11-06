@@ -1,1 +1,1 @@
-Placeholder
+My project primarily revolves around comparing model performance of annotated images using cross entropy and then comparing this performance to a CYBORG trained model. Now that I have (finally) obtained a tangible dataset of US-based urban driving data, we can work on collecting the annotated images of dangerous driving situations. Once these are collected, we can begin training the models.
