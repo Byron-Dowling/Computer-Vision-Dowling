@@ -30,6 +30,7 @@
     - The current performance showed a 100% success rate on test data of images whose labels were "Not Dangerous"
     - However, the model failed to accurately classify a single dangerous situation as "Dangerous"
     - This gave a total testing accuracy of 71% and this is mainly because of the ratio of test data selected and is a reflection of the likelihood of seeing dangerous situations in the dataset
+    - Running XENT at 50 epochs instead of 100 yielded the same results
   - CYBORG is still in progress
 
 ## Commentary
