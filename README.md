@@ -11,7 +11,7 @@
 | :------------: | ---------------| ----------- |
 | Part 1 | [Conceptual Design: Predicting Dangerous Driving Behavior](https://github.com/Byron-Dowling/Computer-Vision-Dowling/tree/main/Part%201) |  Complete   |
 | Part 2 | [Dataset: Predicting Dangerous Driving Behavior](https://github.com/Byron-Dowling/Computer-Vision-Dowling/tree/main/Part%202) |  Complete   |
-| Part 3 | [Feature Extraction](https://github.com/Byron-Dowling/Computer-Vision-Dowling/tree/main/Part%203) |  Waiting on Annotations   |
+| Part 3, 4, 5 | [Feature Extraction and classification](https://github.com/Byron-Dowling/Computer-Vision-Dowling/tree/main/Parts%203%2C%204%2C%20and%205) |  In-Progress   |
 
 <br />
 <br />
