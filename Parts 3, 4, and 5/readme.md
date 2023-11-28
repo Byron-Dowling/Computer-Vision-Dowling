@@ -2,7 +2,7 @@
 
 ## Project Overview
   - For my project, we are wanting to train a model to spot the difference between a situation on the road that a human driver would consider to be dangerous.
-  - Essentially, any situation that a driver would either proceed with caution or be ready to brake at a moment's notice because of sudden changing variables
+  - Essentially, any situation that a driver would either proceed with caution or be ready to brake at a moment's notice because of sudden changing variables.
   - Examples that have been annotated include:
     - Railroad crossings
     - Pedestrians walking in the middle of the road
@@ -17,7 +17,12 @@
   - Stored here on my Google Drive: https://drive.google.com/file/d/1thSCTsoo0Q7m7pVqIHiitSFdoND5uX6h/view?usp=sharing
 
 ## Choice of Classifer
-  - asdf
+  - Since the aspect of a dangerous driving situation is subjective, it appears to be a good problem to utilize current XAI techniques
+  - As a result, we are pitting traditional Cross-Entropy machine learning vs CYBORG loss to determine if the annotations supported in CYBORG will not only outperform Cross-Entropy, but also give a level of trust and assurance as the annotations have been collected by human interpretations of the driving situation presented in the imagery.
+  - The way CYBORG works is that it is a final loss function within the neural network architecture that takes the regions that the model has deemed salient to the decision and weighs this against the annotation regions that our human annotators have deemed to be salient.
+    - CYBORG will evaluate these differences and penalizes the models for large differences between the model's salience and the annotation region.
+    - This prevents potential trust issues where perhaps within an image, the human annotator highlighted a pedestrian, but the cross entropy model highlighted some area within a tree on the sidewalk
+    - Essentially it helps steer the model to learn the features that are most important, according to humans, for the decision
 
 ## Classification Accuracy
   - asdf
