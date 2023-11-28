@@ -25,7 +25,9 @@
     - Essentially it helps steer the model to learn the features that are most important, according to humans, for the decision
 
 ## Classification Accuracy
-  - asdf
+  - My Training Loss reported was minimal on my XENT model over 50+ epochs, however my laptop died before I could test it with the validation data
+    - Currently running it again as I type this
+  - CYBORG is still in progress
 
 ## Commentary
-  - asdf
+  - Close to being done but not 100% yet
