@@ -25,8 +25,11 @@
     - Essentially it helps steer the model to learn the features that are most important, according to humans, for the decision
 
 ## Classification Accuracy
-  - My Training Loss reported was minimal on my XENT model over 50+ epochs, however my laptop died before I could test it with the validation data
-    - Currently running it again as I type this
+  - My Training Loss reported was minimal on my XENT model over 100 epochs
+    - However the performance was mixed and I am currently tweaking some paramters
+    - The current performance showed a 100% success rate on test data of images whose labels were "Not Dangerous"
+    - However, the model failed to accurately classify a single dangerous situation as "Dangerous"
+    - This gave a total testing accuracy of 71% and this is mainly because of the ratio of test data selected and is a reflection of the likelihood of seeing dangerous situations in the dataset
   - CYBORG is still in progress
 
 ## Commentary
