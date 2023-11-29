@@ -26,11 +26,16 @@
 
 ## Classification Accuracy
   - My Training Loss reported was minimal on my XENT model over 100 epochs
-    - However the performance was mixed and I am currently tweaking some paramters
+    - However the performance was mixed and I am currently tweaking some parameters
     - The current performance showed a 100% success rate on test data of images whose labels were "Not Dangerous"
     - However, the model failed to accurately classify a single dangerous situation as "Dangerous"
     - This gave a total testing accuracy of 71% and this is mainly because of the ratio of test data selected and is a reflection of the likelihood of seeing dangerous situations in the dataset
     - Running XENT at 50 epochs instead of 100 yielded the same results
+  - After tweaking the distribution of the training and validation data and starting out at 50 epochs, performance was better
+    - Although training loss was still around 15%, performance was better in terms of being able to correctly identify both parameters
+    - With a slight bias towards situations being more dangerous than not dangerous
+    - Obviously this isn't going into production, but thinking more situations are dangerous than not isn't the worst thing in the world
+    - On the latest run, 71% of Non-dangerous situations were correctly identified while 69% of Dangerous situations were identified
   - CYBORG is still in progress
 
 ## Commentary
