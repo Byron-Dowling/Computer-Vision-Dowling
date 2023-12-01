@@ -16,6 +16,12 @@
   - Amir Roshan Zamir and Mubarak Shah, "Image Geo-localization Based on Multiple Nearest Neighbor Feature Matching using Generalized Graphs", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014
   - Stored here on my Google Drive: https://drive.google.com/file/d/1thSCTsoo0Q7m7pVqIHiitSFdoND5uX6h/view?usp=sharing
 
+## Annotations
+- Can be accessed here: https://drive.google.com/drive/folders/1hWXhqZ4mQg1yhUIf9mXkibYBF0VVC7Sa?usp=sharing
+- The annotations are highlighted areas within the image that I've deemed to be indicative of a dangerous situation
+- More specifically, my interpretation of a dangerous situation is if I'm the driver in the photo, would I be "riding my brake" or ready at a moment's notice to stop my car in the event something happens.
+- These were crafted using Label Studio and includes essentially "blank" annotations for images that are not deemed dangerous since technically the entire image would reference that decision
+
 ## Choice of Classifer
   - Since the aspect of a dangerous driving situation is subjective, it appears to be a good problem to utilize current XAI techniques
   - As a result, we are pitting traditional Cross-Entropy machine learning vs CYBORG loss to determine if the annotations supported in CYBORG will not only outperform Cross-Entropy, but also give a level of trust and assurance as the annotations have been collected by human interpretations of the driving situation presented in the imagery.
@@ -36,7 +42,8 @@
     - With a slight bias towards situations being more dangerous than not dangerous
     - Obviously this isn't going into production, but thinking more situations are dangerous than not isn't the worst thing in the world
     - On the latest run, 71% of Non-dangerous situations were correctly identified while 69% of Dangerous situations were identified
-  - CYBORG is still in progress
+  - CYBORG is "Running" but so far it does not appear to really be "learning" and I'm not seeing a classification increase
+    - I suspect this can be down to a few factors so I am testing different learning rates
 
 ## Commentary
   - Close to being done but not 100% yet
