@@ -31,6 +31,7 @@
     - Essentially it helps steer the model to learn the features that are most important, according to humans, for the decision
 
 ## Classification Accuracy
+  ### Cross Entropy
   - My Training Loss reported was minimal on my XENT model over 100 epochs
     - However the performance was mixed and I am currently tweaking some parameters
     - The current performance showed a 100% success rate on test data of images whose labels were "Not Dangerous"
@@ -42,8 +43,18 @@
     - With a slight bias towards situations being more dangerous than not dangerous
     - Obviously this isn't going into production, but thinking more situations are dangerous than not isn't the worst thing in the world
     - On the latest run, 71% of Non-dangerous situations were correctly identified while 69% of Dangerous situations were identified
-  - CYBORG is "Running" but so far it does not appear to really be "learning" and I'm not seeing a classification increase
-    - I suspect this can be down to a few factors so I am testing different learning rates
+      
+  ### CYBORG
+  - CYBORG is "running" with the code available
+  - However, I'm not seeing an increase in performance over Cross entropt as the baseline learning rate of between 71% - 78% classification success is not increasing with the use of CYBORG and its annotations.
+  - I have tweaked the learning rate a few times and different epochs with minimal success.
+  - At this point, I would say its still ambiguous if there is a combination that will achieve good performance or if this is an instance where CYBORG is not very successful on this type of data set
 
 ## Commentary
-  - Close to being done but not 100% yet
+  - Cross Entropy didn't perform super great and this is no doubt due to a relatively small dataset compared to other experiments as we are training on roughly 1000 images.
+  - CYBORG's strengths are smaller dataset and annotation sizes so it makes sense to try the experiment this way, but no doubt with more samples, Cross Entropy would perform a bit better, and with time I may be able to add more samples from my own driving into the sample pool.
+  - I suspect one thing that could potentially be holding back CYBORG from learning is because of the ambiguity to what was annotated in certain images vs what was not annotated in other images.
+    - For instance, there many instances where I did not annotate pedestrians in the cross walk because they were in the direction that the car could not legally turn into because of a one way street.
+    - My hunch would be that the model still may be struggling to glean this road law context that I am considering when annotating the images, despite also annotating relevant street signs in the dangerous situations.
+  - After more thought as well, if I were to design this general experiment again, and I didn't necessarily have to use CYBORG, I mwould probably do some sort of multi-hiearchial object detection.
+    - Something like where there is lane detection, and then separate object detection layered over this, and then detect for objects, like cyclists or pedestrians, crossing over the lanes detected by the vehicle.
