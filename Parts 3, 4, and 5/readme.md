@@ -43,6 +43,7 @@
     - With a slight bias towards situations being more dangerous than not dangerous
     - Obviously this isn't going into production, but thinking more situations are dangerous than not isn't the worst thing in the world
     - On the latest run, 71% of Non-dangerous situations were correctly identified while 69% of Dangerous situations were identified
+    - Also the CYBORG based Cross Entropy worked a bit better than my "from scratch" DenseNet based model that had fewer layers and was my first few attempts
       
   ### CYBORG
   - CYBORG is "running" with the code available
