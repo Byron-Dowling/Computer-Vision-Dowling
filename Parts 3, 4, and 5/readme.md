@@ -46,7 +46,7 @@
       
   ### CYBORG
   - CYBORG is "running" with the code available
-  - However, I'm not seeing an increase in performance over Cross entropt as the baseline learning rate of between 71% - 78% classification success is not increasing with the use of CYBORG and its annotations.
+  - However, I'm not seeing an increase in performance over Cross entropy as the baseline learning rate of between 71% - 78% classification success is not increasing with the use of CYBORG and its annotations.
   - I have tweaked the learning rate a few times and different epochs with minimal success.
   - At this point, I would say its still ambiguous if there is a combination that will achieve good performance or if this is an instance where CYBORG is not very successful on this type of data set
 
