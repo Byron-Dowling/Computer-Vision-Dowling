@@ -49,7 +49,8 @@
   - CYBORG is "running" with the code available
   - However, I'm not seeing an increase in performance over Cross entropy as the baseline learning rate of between 71% - 78% classification success is not increasing with the use of CYBORG and its annotations.
   - I have tweaked the learning rate a few times and different epochs with minimal success.
-  - At this point, I would say its still ambiguous if there is a combination that will achieve good performance or if this is an instance where CYBORG is not very successful on this type of data set
+    - Learning rates of: 0.02, 0.25. 0.5, 0.75, and 0.95 have all been tested with minimal changes over many epochs
+  - At this point, I would say its still ambiguous if there is a combination that will achieve good performance or if this is an instance where CYBORG is not very successful on this type of data
 
 ## Commentary
   - Cross Entropy didn't perform super great and this is no doubt due to a relatively small dataset compared to other experiments as we are training on roughly 1000 images.
