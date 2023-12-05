@@ -46,11 +46,13 @@
     - Also the CYBORG based Cross Entropy worked a bit better than my "from scratch" DenseNet based model that had fewer layers and was my first few attempts
       
   ### CYBORG
-  - CYBORG is "running" with the code available
-  - However, I'm not seeing an increase in performance over Cross entropy as the baseline learning rate of between 71% - 78% classification success is not increasing with the use of CYBORG and its annotations.
-  - I have tweaked the learning rate a few times and different epochs with minimal success.
-    - Learning rates of: 0.02, 0.25. 0.5, 0.75, and 0.95 have all been tested with minimal changes over many epochs
-  - At this point, I would say its still ambiguous if there is a combination that will achieve good performance or if this is an instance where CYBORG is not very successful on this type of data
+  - CYBORG is now running properly and early results indicate a superior performance over Cross Entropy
+  - The following parameters are in the best runnign version:
+    - Loss Rate: 0.01
+    - Cross Entropy Alpha: 0.4
+    - CYBORG Alpha: 0.6
+    - Epochs: 50
+  - Currently training accuracy is between 88% and 99% success rate
 
 ## Commentary
   - Cross Entropy didn't perform super great and this is no doubt due to a relatively small dataset compared to other experiments as we are training on roughly 1000 images.
