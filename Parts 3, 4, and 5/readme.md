@@ -47,7 +47,7 @@
       
   ### CYBORG
   - CYBORG is now running properly and early results indicate a superior performance over Cross Entropy
-  - The following parameters are in the best runnign version:
+  - The following parameters are in the best running version:
     - Loss Rate: 0.01
     - Cross Entropy Alpha: 0.4
     - CYBORG Alpha: 0.6
@@ -58,7 +58,7 @@
   - Cross Entropy didn't perform super great and this is no doubt due to a relatively small dataset compared to other experiments as we are training on roughly 1000 images.
   - CYBORG's strengths are smaller dataset and annotation sizes so it makes sense to try the experiment this way, but no doubt with more samples, Cross Entropy would perform a bit better, and with time I may be able to add more samples from my own driving into the sample pool.
   - I suspect one thing that could potentially be holding back CYBORG from learning is because of the ambiguity to what was annotated in certain images vs what was not annotated in other images.
-    - For instance, there many instances where I did not annotate pedestrians in the cross walk because they were in the direction that the car could not legally turn into because of a one way street.
+    - For instance, there are many instances where I did not annotate pedestrians in the cross walk because they were in the direction that the car could not legally turn into because of a one way street.
     - My hunch would be that the model still may be struggling to glean this road law context that I am considering when annotating the images, despite also annotating relevant street signs in the dangerous situations.
   - After more thought as well, if I were to design this general experiment again, and I didn't necessarily have to use CYBORG, I mwould probably do some sort of multi-hiearchial object detection.
     - Something like where there is lane detection, and then separate object detection layered over this, and then detect for objects, like cyclists or pedestrians, crossing over the lanes detected by the vehicle.
