@@ -60,7 +60,7 @@
   - I suspect one thing that could potentially be holding back CYBORG from learning is because of the ambiguity to what was annotated in certain images vs what was not annotated in other images.
     - For instance, there are many instances where I did not annotate pedestrians in the cross walk because they were in the direction that the car could not legally turn into because of a one way street.
     - My hunch would be that the model still may be struggling to glean this road law context that I am considering when annotating the images, despite also annotating relevant street signs in the dangerous situations.
-  - After more thought as well, if I were to design this general experiment again, and I didn't necessarily have to use CYBORG, I mwould probably do some sort of multi-hiearchial object detection.
+  - After more thought as well, if I were to design this general experiment again, and I didn't necessarily have to use CYBORG, I would probably do some sort of multi-hiearchial object detection.
     - Something like where there is lane detection, and then separate object detection layered over this, and then detect for objects, like cyclists or pedestrians, crossing over the lanes detected by the vehicle.
    
 ## Grad-CAM
