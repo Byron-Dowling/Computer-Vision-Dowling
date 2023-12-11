@@ -8,7 +8,7 @@ Talk about the dataset and shortcomings, future changes, etc
  - Prediction: Dangerous
  - Score: 0.97
  - Actual: Dangerous
-<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000160_2.jpg" width = "325" height = "256"/>
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000160_2.jpg" width = "550" height = "350"/>
 
  - Prediction: Not_Dangerous
  - Score: 0.41
