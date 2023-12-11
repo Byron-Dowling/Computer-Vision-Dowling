@@ -5,10 +5,15 @@ Insert some cool highlights here
 Talk about the dataset and shortcomings, future changes, etc
 
 ## Classification Accuracy CYBORG
- - Prediction: Dangerous
- - Confidence: 93%
+ - Prediction: Not_Dangerous
+ - Score: 0.41
  - Actual: Not Dangerous
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000004_2.jpg" width = "325" height = "256"/>
+
+ - Prediction: Dangerous
+ - Score: 0.56
+ - Actual: Not Dangerous
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000015_2.jpg" width = "325" height = "256"/>
 
 ## CAMS
 Show cams
