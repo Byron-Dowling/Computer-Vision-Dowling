@@ -57,27 +57,6 @@ Talk about the dataset and shortcomings, future changes, etc
  - Actual: ***Dangerous***
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000176_2.jpg" width = "550" height = "350"/>
 
-## Classification Accuracy on Unseen Data: CYBORG
- - Prediction: **Dangerous**
- - Score: 0.79
- - Actual: ***Dangerous***
-<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_1.jpg" width = "550" height = "350"/>
-
- - Prediction: **Not Dangerous**
- - Score: 0.24
- - Actual: ***Not Dangerous***
-<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_3.jpg?raw=true" width = "550" height = "350"/>
-
- - Prediction: **Dangerous**
- - Score: 0.99
- - Actual: ***Dangerous***
-<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_5.jpg?raw=true" width = "550" height = "350"/>
-
- - Prediction: **Not Dangerous**
- - Score: 0.08
- - Actual: ***Not Dangerous***
-<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_4.jpg?raw=true" width = "550" height = "350"/>
-
 
 ## Classification Accuracy on Unseen Data: Cross Entropy
  - Prediction: **Not Dangerous**
@@ -97,6 +76,28 @@ Talk about the dataset and shortcomings, future changes, etc
 
  - Prediction: **Not Dangerous**
  - Score: 0.04
+ - Actual: ***Not Dangerous***
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_4.jpg?raw=true" width = "550" height = "350"/>
+
+
+## Classification Accuracy on Unseen Data: CYBORG
+ - Prediction: **Dangerous**
+ - Score: 0.79
+ - Actual: ***Dangerous***
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_1.jpg" width = "550" height = "350"/>
+
+ - Prediction: **Not Dangerous**
+ - Score: 0.24
+ - Actual: ***Not Dangerous***
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_3.jpg?raw=true" width = "550" height = "350"/>
+
+ - Prediction: **Dangerous**
+ - Score: 0.99
+ - Actual: ***Dangerous***
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_5.jpg?raw=true" width = "550" height = "350"/>
+
+ - Prediction: **Not Dangerous**
+ - Score: 0.08
  - Actual: ***Not Dangerous***
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_4.jpg?raw=true" width = "550" height = "350"/>
 
