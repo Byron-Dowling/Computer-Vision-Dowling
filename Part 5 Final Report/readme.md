@@ -17,6 +17,18 @@ Highlights:
  - Amir Roshan Zamir and Mubarak Shah, "Image Geo-localization Based on Multiple Nearest Neighbor Feature Matching using Generalized Graphs", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014
  - Stored here on my Google Drive: https://drive.google.com/file/d/1thSCTsoo0Q7m7pVqIHiitSFdoND5uX6h/view?usp=sharing
 
+## Annotations
+- Individual JPG's can be accessed here: https://drive.google.com/drive/folders/1hWXhqZ4mQg1yhUIf9mXkibYBF0VVC7Sa?usp=sharing
+- The annotations are highlighted areas within the image that I've deemed to be indicative of a dangerous situation
+- More specifically, my interpretation of a dangerous situation is if I'm the driver in the photo, would I be "riding my brake" or ready at a moment's notice to stop my car in the event something happens.
+- These were crafted using Label Studio and includes essentially "blank" annotations for images that are not deemed dangerous since technically the entire image would reference that decision
+  
+Example Anotations:
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Annotations/Screenshot%202023-12-11%20at%2017-19-03%20Label%20Studio.png?raw=true" width = "550" height = "350"/>
+
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Annotations/Screenshot%20from%202023-12-11%2017-17-53.png?raw=true" width = "550" height = "350"/>
+
+
 ## Classification Accuracy on Testing Data: Cross Entropy Model
  - Prediction: **Not Dangerous**
  - Score: 0.33
