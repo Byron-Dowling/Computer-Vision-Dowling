@@ -5,9 +5,9 @@ Insert some cool highlights here
 Talk about the dataset and shortcomings, future changes, etc
 
 ## Classification Accuracy XENT
- - Prediction: <span style="color:Green">**Not Dangerous** text</span>
+ - Prediction: **Not Dangerous**
  - Score: 0.33
- - Actual: Dangerous
+ - Actual: ***Dangerous***
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000160_2.jpg" width = "550" height = "350"/>
 
  - Prediction: Not Dangerous
