@@ -5,7 +5,7 @@ Insert some cool highlights here
 Talk about the dataset and shortcomings, future changes, etc
 
 ## Classification Accuracy
-<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000004_2.jpg" width = "640" height = "512"/>
+<img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000004_2.jpg" width = "325" height = "256"/>
 
 ## CAMS
 Show cams
