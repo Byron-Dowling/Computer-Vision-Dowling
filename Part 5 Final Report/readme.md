@@ -5,6 +5,15 @@ Highlights:
  - CYBORG appears to be performing better both on testing and unseen data
  - CYBORG is occasionally showing a bias towards Non-Dangerous situations to be classified as Dangerous
 
+## Files
+|   #    | File                    | Description                                          |
+| :---:  | ----------------------- | ---------------------------------------------------- |
+|   1    | train_droid_alphas.py              | Main Driver of the training process                             |
+|   2    | test_droid_alpha.py      | Script to run a test csv to test the final trained model  |
+|   3    | dataset_loader_cam.py          | Utility file to load the dataset |
+|   4    | models.py                 | Utility file that implements various model architectures                      |
+
+
 ## Dataset 
  - The dataset that I have trained and tested the model on is from Google Street View and consists of urban driving situations in New York City, Pittsburgh, Charlotte, and Orlando
  - The unseen data that I test on later is also sourced from Google Street View and is from either Denver CO, Fort Worth TX, or Dallas TX
@@ -126,12 +135,3 @@ Highlights:
  - Score: 0.08
  - Actual: ***Not Dangerous***
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_4.jpg?raw=true" width = "550" height = "350"/>
-
-
-## Files
-|   #    | File                    | Description                                          |
-| :---:  | ----------------------- | ---------------------------------------------------- |
-|   1    | Hangman.py              | Main Driver of the Game                              |
-|   2    | DictionaryWords.py      | Helper Class to load words and generate random word  |
-|   3    | KeyboardMap.py          | Helper file to enable keyboard with mousedown events |
-|   4    | HMW.txt                 | Input file of potential words                        |
