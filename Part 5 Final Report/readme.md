@@ -4,7 +4,7 @@ Insert some cool highlights here
 ## Dataset 
 Talk about the dataset and shortcomings, future changes, etc
 
-## Classification Accuracy XENT
+## Classification Accuracy: Cross Entropy Model
  - Prediction: **Not Dangerous**
  - Score: 0.33
  - Actual: ***Dangerous***
@@ -31,7 +31,7 @@ Talk about the dataset and shortcomings, future changes, etc
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/000176_2.jpg" width = "550" height = "350"/>
 
 
-## Classification Accuracy CYBORG
+## Classification Accuracy: CYBORG Model
  - Prediction: **Dangerous**
  - Score: 0.97
  - Actual: ***Dangerous***
