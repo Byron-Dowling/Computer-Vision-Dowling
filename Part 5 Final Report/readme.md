@@ -1,8 +1,21 @@
 # Final Report
-Insert some cool highlights here
+Highlights:
+ - Traditional Cross Entropy achieved a peak Training Accuracy of 78%
+ - The CYBORG trained model achieve a peak Training Accuracy near 99%
+ - CYBORG appears to be performing better both on testing and unseen data
+ - CYBORG is occasionally showing a bias towards Non-Dangerous situations to be classified as Dangerous
 
 ## Dataset 
-Talk about the dataset and shortcomings, future changes, etc
+ - The dataset that I have trained and tested the model on is from Google Street View and consists of urban driving situations in New York City, Pittsburgh, Charlotte, and Orlando
+ - The unseen data that I test on later is also sourced from Google Street View and is from either Denver CO, Fort Worth TX, or Dallas TX
+ - The total images sourced for this experiment is 992 images
+ - It was originally an even 1500 but several images were not correctly cropped as promised from the source and they did not accurately reflect the drivers' point of view in the image.
+ - This however does give CYBORG an opportunity to show its strength as it works well with smaller data sets
+ - The way my experiment is set up is to use a 70/30 training testing split so that 70% of the cumulative data is for training and the remaining 30% is reserved for testing.
+ - The unseen data was simply a handful of images that were hand picked on my own accord.
+ - Dataset soured from: https://www.crcv.ucf.edu/data/GMCP_Geolocalization/
+ - Amir Roshan Zamir and Mubarak Shah, "Image Geo-localization Based on Multiple Nearest Neighbor Feature Matching using Generalized Graphs", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014
+ - Stored here on my Google Drive: https://drive.google.com/file/d/1thSCTsoo0Q7m7pVqIHiitSFdoND5uX6h/view?usp=sharing
 
 ## Classification Accuracy on Testing Data: Cross Entropy Model
  - Prediction: **Not Dangerous**
