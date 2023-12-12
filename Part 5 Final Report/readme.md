@@ -138,7 +138,13 @@
  - Actual: ***Not Dangerous***
 <img src="https://github.com/Byron-Dowling/Assets/blob/main/Driving_Test_Data/Unseen_Data/unseen_4.jpg?raw=true" width = "550" height = "350"/>
 
+
+## Presentation Component:
+ - Can be accessed here: https://drive.google.com/file/d/1yfmTwmc9xy8sP3maZbR_Rwhu8Yrdk_7X/view?usp=sharing
+ - Same one that I'm showing for the demo final
+
 ## Further Testing:
  - You *should* be able to test the code from here: https://colab.research.google.com/drive/15QoncZ1S7azSlWwFqvMwq9jpHCuoXo7v?authuser=2#scrollTo=LvslFRVNGrKn
  - You will need a copy of one of the Torch Models on Google Drive
  - A csv with the links to unseen images to test
+ - I'm not entirely sure how to make all the files already be available in the Colab Notebook since I've been connecting my Google Drive account to store things that are too large to attach.
