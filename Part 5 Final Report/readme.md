@@ -8,10 +8,10 @@ Highlights:
 ## Files
 |   #    | File                    | Description                                          |
 | :---:  | ----------------------- | ---------------------------------------------------- |
-|   1    | train_droid_alphas.py              | Main Driver of the training process                             |
-|   2    | test_droid_alpha.py      | Script to run a test csv to test the final trained model  |
-|   3    | dataset_loader_cam.py          | Utility file to load the dataset |
-|   4    | models.py                 | Utility file that implements various model architectures                      |
+|   1    | train_droid_alphas.py              | [Main Driver of the training process](https://github.com/Byron-Dowling/Computer-Vision-Dowling/blob/main/Part%205%20Final%20Report/train_droid_alphas.py)                             |
+|   2    | test_droid_alpha.py      | [Script to run a test csv to test the final trained model](https://github.com/Byron-Dowling/Computer-Vision-Dowling/blob/main/Part%205%20Final%20Report/test_droid.py)  |
+|   3    | dataset_loader_cam.py          | [Utility file to load the dataset](https://github.com/Byron-Dowling/Computer-Vision-Dowling/blob/main/Part%205%20Final%20Report/dataset_Loader_cam.py) |
+|   4    | models.py                 | [Utility file that implements various model architectures](https://github.com/Byron-Dowling/Computer-Vision-Dowling/blob/main/Part%205%20Final%20Report/models.py)                      |
 |   5    | current_CYBORG_model_100_epochs.pth                 | [CYBORG Model Click here to access](https://drive.google.com/file/d/1nybqKBVE8CWbdBnfAUj21g9gBlsDv4Uv/view?usp=sharing)                      |
 |   6    | current_XENT_model_100_epochs.pth                  | [Cross Entropy Model Click hereto access](https://drive.google.com/file/d/1Ogg15uBovc1A-tDXYXoTr-oNu8jdw2hj/view?usp=sharing)                      |
 
