@@ -12,6 +12,8 @@ Highlights:
 |   2    | test_droid_alpha.py      | Script to run a test csv to test the final trained model  |
 |   3    | dataset_loader_cam.py          | Utility file to load the dataset |
 |   4    | models.py                 | Utility file that implements various model architectures                      |
+|   5    | current_CYBORG_model_100_epochs.pth                 | [CYBORG Model Click here to access](https://drive.google.com/file/d/1nybqKBVE8CWbdBnfAUj21g9gBlsDv4Uv/view?usp=sharing)                      |
+|   6    | current_XENT_model_100_epochs.pth                  | [Cross Entropy Model Click hereto access](https://drive.google.com/file/d/1Ogg15uBovc1A-tDXYXoTr-oNu8jdw2hj/view?usp=sharing)                      |
 
 
 ## Dataset 
