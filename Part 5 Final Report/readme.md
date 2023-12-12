@@ -1,5 +1,5 @@
 # Final Report
-Highlights:
+### Highlights:
  - Traditional Cross Entropy achieved a peak Training Accuracy of 78%
  - The CYBORG trained model achieve a peak Training Accuracy near 99%
  - CYBORG appears to be performing better both on testing and unseen data
